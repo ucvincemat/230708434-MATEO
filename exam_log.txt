@@ -1,0 +1,99 @@
+    1  mkdir linux_practice
+    2  cd linux_practice
+    3  touch notes.txt
+    4  ls
+    5  echo
+    6  echo ls > notes.txt
+    7  cat nots.txt
+    8  cat notes.txt
+    9  nano notes.txt
+   10  cat notes.txt
+   11  ls > notes.txt
+   12  cat notes.txt
+   13  "Hello, Linux!" > notes.txt
+   14  echo "Hello, Linux!" > notes.txt
+   15  echo "This is the practical exam." > notes.txt
+   16  head notes.txt
+   17  tail notes.txt
+   18  cat notes.txt
+   19  ls > notes.txt
+   20  echo "Hello, Linux!" >> notes.txt
+   21  echo "This is a practical exam." >> notes.txt
+   22  head notes.txt
+   23  head /?
+   24  head -?
+   25* head --he
+   26  head notes.txt -n 
+   27  head notes.txt --lines=1
+   28  tail notes.txt --lines=1
+   29  mkdir subdir
+   30  mv notes.txt subdir/* -i
+   31  ls
+   32  mv subdir practice_subdir
+   33  mv practice_subdir/notes.txt notes.txt
+   34  ls
+   35  mv practice_subdir/notes.txt notes.txt
+   36  ls practice_subdir
+   37  mv practics_subdir/* practice_subdir/notes.txt
+   38  mv practice_subdir/* practice_subdir/notes.txt
+   39  ls
+   40  ls practice_subdir
+   41  mv practics_subdir/notes.txt practice_subdir/notes.txt
+   42  mv practice_subdir/notes.txt notes.txt
+   43  ls
+   44  pwd
+   45  time
+   46  date
+   47  timw
+   48  time
+   49  chkdsk
+   50  help
+   51  df
+   52  df ~
+   53  ssh
+   54  myphp-ctl
+   55  mysql
+   56  apachectl
+   57  apachectl status
+   58  python2
+   59  python3
+   60  java -v
+   61  java version
+   62  git branxh
+   63  git branch
+   64  cd ..
+   65  git status
+   66  git init
+   67  cd ..
+   68  cd..
+   69  cd ..
+   70  ls
+   71  cd repo
+   72  ls
+   73  cd 230708434-MATEO
+   74  git status
+   75  mv ~/projects/my_repo/* ~/repo/230708434-MATEO
+   76  ls
+   77  git status
+   78  git branch
+   79  git branch finalexam
+   80  git checkout finalexam
+   81  git add linux_practice/
+   82  git status
+   83  cd linux_practice
+   84  ls
+   85  cd pracrixe_subdir
+   86  cd practice_subdir
+   87  ls
+   88  copy ../notes.txt notes.txt
+   89  cp ../notes.txt notes.txt
+   90  ls
+   91  cd ../..
+   92  git status
+   93  git add .
+   94  git status
+   95  history -a
+   96  git commit -m "Added notes.txt with Linux command practices"
+   97  git push
+   98  git push --set-upstream origin finalexam
+   99  history >> exam_log.txt
