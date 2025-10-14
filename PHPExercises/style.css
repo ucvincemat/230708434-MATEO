@@ -1,0 +1,9 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    padding: 5%;
+    color: white;
+    background-color: darkblue;
+}
