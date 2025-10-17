@@ -1,6 +1,20 @@
+<html>
+<body>
+
+<form action="currency.php" method="GET">
+PHP <input type="text" name="pesos"><br>
+<input type="submit">
+</form>
+
+<hr>
+<br><br>
+
+</body>
+</html>
+
 <?php
 
-$php = 100;
+$php = $_GET["pesos"] ?? 100;
 
 $usd = number_format($php * 0.017,2);
 $eur = number_format($php * 0.015,2);
