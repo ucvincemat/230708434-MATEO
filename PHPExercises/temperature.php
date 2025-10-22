@@ -1,10 +1,24 @@
+<html>
+<body>
+
+<form method="GET">
+<input type="text" name="celcius"> &deg;C <br>
+<input type="submit">
+</form>
+
+<hr>
+<br><br>
+
+</body>
+</html>
+
 <?php
 
-$celsius = 30;
+$celsius = $_GET["celcius"] ?? 30;
 
 $fahrenheit = ($celsius * 9 / 5) + 32;
 
-echo "$celsius degrees Celsius is $fahrenheit degrees Fahrenheit."
+echo "<b>$celsius&deg;C</b> (degrees Celcius) is <b>$fahrenheit&deg;F (degrees Fahrenheit)</b>."
 
 ?>
 

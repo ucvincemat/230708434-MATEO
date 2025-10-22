@@ -1,7 +1,7 @@
 <html>
 <body>
 
-<form action="bmi.php" method="GET">
+<form method="GET">
 Weight: <input type="text" name="weight"> kg<br>
 Height: <input type="text" name="height"> m<br>
 <input type="submit">

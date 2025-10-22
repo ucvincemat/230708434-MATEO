@@ -1,7 +1,7 @@
 <html>
 <body>
 
-<form action="currency.php" method="GET">
+<form method="GET">
 PHP <input type="text" name="pesos"><br>
 <input type="submit">
 </form>

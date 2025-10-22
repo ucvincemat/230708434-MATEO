@@ -14,8 +14,10 @@ echo "Current Balance: $balance";
 
 <html>
 <body>
+<br><br>
+<hr>
 
-<form action="bank.php" method="GET">
+<form method="GET">
 Transaction: <select name="transaction">
   <option value="deposit">Deposit</option>
   <option value="withdraw">Withdraw</option>
@@ -24,9 +26,6 @@ Amount: <input type="number" name="amount"><br>
 <input type="hidden" name="balance" value = <?php echo $balance ?>>
 <input type="submit">
 </form>
-
-<hr>
-<br><br>
 
 </body>
 </html>

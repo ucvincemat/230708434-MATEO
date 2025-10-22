@@ -1,7 +1,7 @@
 <html>
 <body>
 
-<form action="introduce.php" method="GET">
+<form method="GET">
 Name: <input type="text" name="name"><br>
 Age: <input type="text" name="age"><br>
 Favorite Color: <input type="text" name="favorite_color"><br>
